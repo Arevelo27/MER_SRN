@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C7DB0499-13B1-667F-A4D0-33DD6E62054C" name="PK_tbl_permisos_tbl_rol">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 14:52:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<containerWithKeyObject>840350EE-94E6-5FFF-EBFD-0EBEB7679A55</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>F891161F-0215-9BE0-33D6-389906091527</localFKIndex>
+<keyObject>051260A1-06A9-9126-BDE6-1F6060BBF294</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

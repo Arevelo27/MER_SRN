@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="549FF3D2-DD81-9A28-00E2-DCEC4BDDF9BE" name="srn_tbl_menu_permisos">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 17:09:05 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="num_id_menu_permiso" id="F32FCCC4-3116-4083-6C1B-62DD8661417E">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 17:09:05 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_tbl_permisos_num_idpermiso</notNullConstraintName>
+</Column>
+<Column name="str_descripcion" id="6DED449B-E60E-ECDD-E856-8457F184DDB5">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 17:09:05 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_cod_rol" id="CC9E97CE-AAB0-B108-1C8C-CA7DA044A53E">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 17:09:05 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<delegate>7A776F53-E898-F22B-9B28-4288AB88427F</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_tbl_permisos_num_codrol</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="DF6A1485-72B4-889C-1EF3-52DED5049A85" referredColumn="7A776F53-E898-F22B-9B28-4288AB88427F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8FC763BC-26C7-3080-B5F4-CDFF4D5FF89F" name="PK_tbl_menu_permisos">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 17:09:05 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F32FCCC4-3116-4083-6C1B-62DD8661417E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECC155A3-5F81-C3AB-CC09-35F15CC3C747" name="FK_tbl_menu_per_tbl_rol">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 17:09:05 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC9E97CE-AAB0-B108-1C8C-CA7DA044A53E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

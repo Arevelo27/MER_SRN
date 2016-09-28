@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE228E58-000E-FB42-784F-F4A702CD78AE" name="srn_tbl_materia">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 13:31:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="num_id_materia" id="9192EC9A-06FE-F66E-7124-35515E82748D">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 13:35:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="str_nombre_materia" id="81AF7401-25BE-E4BE-636D-1747ECD1D404">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 13:35:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_intensidad_horaria" id="8F337C2F-BB81-FBAB-366E-1EB648AEEF5B">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 13:35:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="14B992AF-DB38-6A52-554E-336BF7E8F94D" name="srn_tbl_materia_PK">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 13:35:28 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9192EC9A-06FE-F66E-7124-35515E82748D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AF412BF-84B9-9C3F-560A-9FE8AB4AF76F" name="srn_tbl_materia__IDX">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 13:36:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9192EC9A-06FE-F66E-7124-35515E82748D"/>
+<colUsage columnID="81AF7401-25BE-E4BE-636D-1747ECD1D404"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

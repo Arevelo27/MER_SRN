@@ -1,0 +1,209 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D834C84-43C3-85D9-5958-702318C7A388" name="srn_tbl_usuario">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 13:36:19 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="num_id_usuario" id="8B8405A8-745E-D2EA-95E8-4F186DAC0A3F">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 13:50:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_tipo_documento" id="692BF93D-AF76-7730-6AE8-455CA24BB660">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 13:50:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<delegate>0C19035E-AF1B-BA68-5117-CEA2B841EB01</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77651EA5-FCE3-0458-D696-CC9CD9B0E332" referredColumn="0C19035E-AF1B-BA68-5117-CEA2B841EB01"/>
+</associations>
+</Column>
+<Column name="num_cod_documento" id="F31EA1C7-C603-713F-92EE-204F136CE40D">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 13:50:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="str_nombre" id="8CBD355B-934A-5096-4C31-CCAB33BD302E">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 13:50:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="str_apellido" id="1103B0EB-BFEE-F4A2-F2DA-63A848B321A1">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 13:50:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="str_estado" id="FB851E5F-FF56-11C8-298F-EFAB422CDD78">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 13:50:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<delegate>D3ED51D1-8D76-8AC4-96A7-ACED9296DB43</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59842920-8CA9-485F-9809-D27222654BB8" referredColumn="D3ED51D1-8D76-8AC4-96A7-ACED9296DB43"/>
+</associations>
+</Column>
+<Column name="str_genero" id="533DA216-9705-A048-E6C6-A9CE960C6261">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 13:50:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<delegate>065CBD53-8343-9D8E-BEF2-7B322AE42405</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5B441F2-826E-2F52-1D60-DA894B3396D9" referredColumn="065CBD53-8343-9D8E-BEF2-7B322AE42405"/>
+</associations>
+</Column>
+<Column name="num_cod_rol" id="04EAF606-1DA9-DE9F-E585-69C7C46332EA">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 13:50:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<delegate>7A776F53-E898-F22B-9B28-4288AB88427F</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDA5A39D-2B22-21AE-4F62-2EC349B2BD8D" referredColumn="7A776F53-E898-F22B-9B28-4288AB88427F"/>
+</associations>
+</Column>
+<Column name="str_login" id="DBAE8809-7200-6C22-D8A5-651F03437CB3">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 13:50:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="str_password" id="37374EEE-2887-98D6-BBBB-86BC87A0A33A">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 13:50:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="57C85F2A-E365-3007-8AFB-63AFF2DAC87A" name="PK_srn_tbl_usuario">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 14:00:31 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B8405A8-745E-D2EA-95E8-4F186DAC0A3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFD6963C-AA5C-367F-D3CF-1A405210DB21" name="srn_tbl_usuario__IDX">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 13:51:23 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B8405A8-745E-D2EA-95E8-4F186DAC0A3F"/>
+<colUsage columnID="F31EA1C7-C603-713F-92EE-204F136CE40D"/>
+<colUsage columnID="8CBD355B-934A-5096-4C31-CCAB33BD302E"/>
+<colUsage columnID="1103B0EB-BFEE-F4A2-F2DA-63A848B321A1"/>
+<colUsage columnID="DBAE8809-7200-6C22-D8A5-651F03437CB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87CCD1BB-0FD3-79FE-2201-1CB28EE1BF62" name="FK_tbl_usuario_tbl_estado">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 13:58:20 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB851E5F-FF56-11C8-298F-EFAB422CDD78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25D10B6A-0A68-24B0-BA6B-E48612D0B48A" name="FK_tbl_usuario_tbl_genero">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 14:04:23 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="533DA216-9705-A048-E6C6-A9CE960C6261"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09147536-6506-C1BB-1BA8-AC6209E934EC" name="FK_tbl_usuario_tbl_tipo_doc">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 14:05:56 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="692BF93D-AF76-7730-6AE8-455CA24BB660"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10F7D4B4-27DA-AEC4-F2A2-C4CE05B167CE" name="FK_tbl_usuario_tbl_rol">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 14:11:35 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04EAF606-1DA9-DE9F-E585-69C7C46332EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

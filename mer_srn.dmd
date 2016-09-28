@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="mer_srn" id="00A202CA-8C22-DC9E-5FB6-C5D9D60E0AD2" version="3.5">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 13:31:41 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>00A202CA-8C22-DC9E-5FB6-C5D9D60E0AD2</designId>
+</OSDM_Design>

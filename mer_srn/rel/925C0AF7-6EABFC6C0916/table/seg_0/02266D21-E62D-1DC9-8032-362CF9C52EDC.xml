@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="02266D21-E62D-1DC9-8032-362CF9C52EDC" name="srn_tbl_nota">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 14:23:51 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="num_id_nota" id="05214784-18AF-6005-1651-551B5AD667D9">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 14:26:15 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_cod_materiauser" id="897D066A-7D6D-5903-F91B-A4BDC09A3C1F">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 14:26:15 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<delegate>15E228BB-6773-ABF3-45C3-07D0DAAD54EE</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="742FCBB7-2383-96DF-F2A2-8FE9991A6D7B" referredColumn="15E228BB-6773-ABF3-45C3-07D0DAAD54EE"/>
+</associations>
+</Column>
+<Column name="num_parcial_I" id="495F0059-3203-5416-4D01-134E47214A10">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 16:18:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_parcial_II" id="FB783420-31B5-8180-77BC-D3E94AA640D2">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 16:20:29 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_parcial_III" id="0F2F7C61-E033-189D-ADF4-CB7068278357">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 16:20:29 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_nota_adicional" id="22B96778-064D-3DFC-C5A1-94BDED14FD9E">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 16:20:29 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_pryecto" id="9CBDEE36-5B81-9C43-3DC1-70A9D55771B1">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 16:20:29 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_nota_final" id="7926DF49-668E-DB7F-0024-BB7E32DAB489">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 16:20:29 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5DA8E007-8919-AC8E-113F-8BABB756D64D" name="srn_tbl_nota_PK">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 14:26:15 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05214784-18AF-6005-1651-551B5AD667D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4227D52E-B819-C11D-8051-A0B0B3F86237" name="FK_tbl_nota_tbl_materia_usua">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 14:44:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="897D066A-7D6D-5903-F91B-A4BDC09A3C1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

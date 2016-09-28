@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D54127E2-F21B-E5B9-68B4-B3EBDBD4C400" name="srn_tbl_tipo_documento">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 14:01:56 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="str_cod_tipo_doc" id="0C19035E-AF1B-BA68-5117-CEA2B841EB01">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 14:01:56 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_tbl_genero_str_codgenero</notNullConstraintName>
+</Column>
+<Column name="str_descripcion" id="2CDD8999-F9BB-AE4F-FF8C-89DA0BD44262">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 14:01:56 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_tbl_genero_str_desc</notNullConstraintName>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6871693D-62DB-B6C8-2DC6-E46C9F1CC5CB" name="PK_srn_tbl_tipo_doc">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 14:01:56 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C19035E-AF1B-BA68-5117-CEA2B841EB01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

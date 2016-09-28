@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5BC3327-55AB-CF65-5B47-57536DCAA7DF" name="srn_tbl_estado">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 13:51:57 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="str_cod_estado" id="D3ED51D1-8D76-8AC4-96A7-ACED9296DB43">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 13:56:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="str_descripcion" id="8E933873-3516-83B6-6A52-4D0082F0671C">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 13:56:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="14E4CFD4-E569-04D9-33E2-7049605D036D" name="srn_tbl_estado_PK">
+<createdBy>TSI</createdBy>
+<createdTime>2016-09-27 13:56:42 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3ED51D1-8D76-8AC4-96A7-ACED9296DB43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
