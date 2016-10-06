@@ -32,47 +32,10 @@ CREATE INDEX srn_tbl_materia__IDX ON srn_tbl_materia
   ) ;
 ALTER TABLE srn_tbl_materia ADD CONSTRAINT srn_tbl_materia_PK PRIMARY KEY ( num_id_materia ) ;
 
-CREATE TABLE srn_tbl_materia_usuario
-  (
-    num_id_materiauser NUMBER (10) NOT NULL ,
-    num_cod_materia    NUMBER (10) NOT NULL ,
-    num_cod_usuario    NUMBER (12) NOT NULL
-  ) ;
-ALTER TABLE srn_tbl_materia_usuario ADD CONSTRAINT srn_tbl_materia_usuario_PK PRIMARY KEY ( num_id_materiauser ) ;
-
-CREATE TABLE srn_tbl_menu_permisos
-  (
-    num_id_menu_permiso NUMBER (5) CONSTRAINT NNC_tbl_permisos_num_idpermiso NOT NULL ,
-    str_descripcion     VARCHAR2 (50) ,
-    num_cod_rol         NUMBER (5) CONSTRAINT NNC_tbl_permisos_num_codrol NOT NULL
-  ) ;
-ALTER TABLE srn_tbl_menu_permisos ADD CONSTRAINT PK_tbl_menu_permisos PRIMARY KEY ( num_id_menu_permiso ) ;
-
-CREATE TABLE srn_tbl_nota
-  (
-    num_id_nota         NUMBER (10) NOT NULL ,
-    num_cod_materiauser NUMBER (10) NOT NULL ,
-    num_parcial_I       NUMBER (2,2) ,
-    num_parcial_II      NUMBER (2,2) ,
-    num_parcial_III     NUMBER (2,2) ,
-    num_nota_adicional  NUMBER (2,2) ,
-    num_pryecto         NUMBER (2,2) ,
-    num_nota_final      NUMBER (2,2)
-  ) ;
-ALTER TABLE srn_tbl_nota ADD CONSTRAINT srn_tbl_nota_PK PRIMARY KEY ( num_id_nota ) ;
-
-CREATE TABLE srn_tbl_permisos
-  (
-    num_id_permiso  NUMBER (5) NOT NULL ,
-    str_descripcion VARCHAR2 (50) ,
-    num_cod_rol     NUMBER (5) NOT NULL
-  ) ;
-ALTER TABLE srn_tbl_permisos ADD CONSTRAINT srn_tbl_permisos_PK PRIMARY KEY ( num_id_permiso ) ;
-
 CREATE TABLE srn_tbl_rol
   (
-    num_id_rol      NUMBER (5) CONSTRAINT NNC_tbl_estado_str_codestado NOT NULL ,
-    str_descripcion VARCHAR2 (100) CONSTRAINT NNC_tbl_estado_str_desc NOT NULL
+    num_id_rol      NUMBER (5) CONSTRAINT NNC_tbl_rol_str_codrol NOT NULL ,
+    str_descripcion VARCHAR2 (100) CONSTRAINT NNC_tbl_rol_str_desc NOT NULL
   ) ;
 ALTER TABLE srn_tbl_rol ADD CONSTRAINT PK_srn_tbl_rol PRIMARY KEY ( num_id_rol ) ;
 
@@ -82,6 +45,23 @@ CREATE TABLE srn_tbl_tipo_documento
     str_descripcion  VARCHAR2 (100) CONSTRAINT NNC_tbl_genero_str_desc NOT NULL
   ) ;
 ALTER TABLE srn_tbl_tipo_documento ADD CONSTRAINT PK_srn_tbl_tipo_doc PRIMARY KEY ( str_cod_tipo_doc ) ;
+
+CREATE TABLE srn_tbl_menu_permisos
+  (
+    num_id_menu_permiso NUMBER (5) CONSTRAINT NNC_tbl_permisos_num_idpermiso NOT NULL ,
+    str_descripcion     VARCHAR2 (50) ,
+    num_cod_rol         NUMBER (5) CONSTRAINT NNC_tbl_permisos_num_codrol NOT NULL
+  ) ;
+ALTER TABLE srn_tbl_menu_permisos ADD CONSTRAINT PK_tbl_menu_permisos PRIMARY KEY ( num_id_menu_permiso ) ;
+
+
+CREATE TABLE srn_tbl_permisos
+  (
+    num_id_permiso  NUMBER (5) NOT NULL ,
+    str_descripcion VARCHAR2 (50) ,
+    num_cod_rol     NUMBER (5) NOT NULL
+  ) ;
+ALTER TABLE srn_tbl_permisos ADD CONSTRAINT srn_tbl_permisos_PK PRIMARY KEY ( num_id_permiso ) ;
 
 CREATE TABLE srn_tbl_usuario
   (
@@ -105,6 +85,29 @@ CREATE INDEX srn_tbl_usuario__IDX ON srn_tbl_usuario
     str_login ASC
   ) ;
 ALTER TABLE srn_tbl_usuario ADD CONSTRAINT PK_srn_tbl_usuario PRIMARY KEY ( num_id_usuario ) ;
+
+CREATE TABLE srn_tbl_materia_usuario
+  (
+    num_id_materiauser NUMBER (10) NOT NULL ,
+    num_cod_materia    NUMBER (10) NOT NULL ,
+    num_cod_usuario    NUMBER (12) NOT NULL
+  ) ;
+ALTER TABLE srn_tbl_materia_usuario ADD CONSTRAINT srn_tbl_materia_usuario_PK PRIMARY KEY ( num_id_materiauser ) ;
+
+CREATE TABLE srn_tbl_nota
+  (
+    num_id_nota         NUMBER (10) NOT NULL ,
+    num_cod_materiauser NUMBER (10) NOT NULL ,
+    num_parcial_I       NUMBER (2,2) ,
+    num_parcial_II      NUMBER (2,2) ,
+    num_parcial_III     NUMBER (2,2) ,
+    num_nota_adicional  NUMBER (2,2) ,
+    num_pryecto         NUMBER (2,2) ,
+    num_nota_final      NUMBER (2,2)
+  ) ;
+ALTER TABLE srn_tbl_nota ADD CONSTRAINT srn_tbl_nota_PK PRIMARY KEY ( num_id_nota ) ;
+
+
 
 ALTER TABLE srn_tbl_menu_permisos ADD CONSTRAINT FK_tbl_menu_per_tbl_rol FOREIGN KEY ( num_cod_rol ) REFERENCES srn_tbl_rol ( num_id_rol ) ;
 

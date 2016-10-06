@@ -10,6 +10,8 @@
    <object objectType="Table" objectID="4A6D6546-900C-172B-E2F4-BF29E0775429" name="srn_tbl_rol" seqName="seg_0"/>
    <object objectType="Table" objectID="D54127E2-F21B-E5B9-68B4-B3EBDBD4C400" name="srn_tbl_tipo_documento" seqName="seg_0"/>
    <object objectType="Table" objectID="1D834C84-43C3-85D9-5958-702318C7A388" name="srn_tbl_usuario" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DF6A1485-72B4-889C-1EF3-52DED5049A85" name="FK_tbl_menu_per_tbl_rol" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="742FCBB7-2383-96DF-F2A2-8FE9991A6D7B" name="FK_tbl_nota_tbl_materia_usua" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="59842920-8CA9-485F-9809-D27222654BB8" name="FK_tbl_usuario_tbl_estado" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="D5B441F2-826E-2F52-1D60-DA894B3396D9" name="FK_tbl_usuario_tbl_genero" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="FDA5A39D-2B22-21AE-4F62-2EC349B2BD8D" name="FK_tbl_usuario_tbl_rol" seqName="seg_0"/>
@@ -17,6 +19,4 @@
    <object objectType="FKIndexAssociation" objectID="625C9B49-0F73-04C0-5844-AFBC535D4D77" name="PK_tbl_materia_user_tbl_mate" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="3817E378-6B74-D3F4-C4E5-5D9305572562" name="PK_tbl_materia_user_tbl_usua" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="C7DB0499-13B1-667F-A4D0-33DD6E62054C" name="PK_tbl_permisos_tbl_rol" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="742FCBB7-2383-96DF-F2A2-8FE9991A6D7B" name="FK_tbl_nota_tbl_materia_usua" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="DF6A1485-72B4-889C-1EF3-52DED5049A85" name="FK_tbl_menu_per_tbl_rol" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

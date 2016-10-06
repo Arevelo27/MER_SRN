@@ -47,7 +47,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="C2B3F01F-1CA1-74E6-EB47-219881B3306E" name="srn_tbl_permisos_PK">
+<ind_PK_UK id="C2B3F01F-1CA1-74E6-EB47-219881B3306E" name="PK_srn_tbl_permisos">
 <createdBy>TSI</createdBy>
 <createdTime>2016-09-27 14:51:43 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
