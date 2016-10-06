@@ -50,7 +50,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="9CD234E2-CF0C-3CF4-8C5D-CC6B20418015" name="srn_tbl_materia_usuario_PK">
+<ind_PK_UK id="9CD234E2-CF0C-3CF4-8C5D-CC6B20418015" name="PK_srn_tbl_materia_usuario">
 <createdBy>TSI</createdBy>
 <createdTime>2016-09-27 14:43:22 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>

@@ -113,7 +113,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5DA8E007-8919-AC8E-113F-8BABB756D64D" name="srn_tbl_nota_PK">
+<ind_PK_UK id="5DA8E007-8919-AC8E-113F-8BABB756D64D" name="PK_srn_tbl_nota">
 <createdBy>TSI</createdBy>
 <createdTime>2016-09-27 14:26:15 UTC</createdTime>
 <generatorID>Generado por el Usuario</generatorID>
