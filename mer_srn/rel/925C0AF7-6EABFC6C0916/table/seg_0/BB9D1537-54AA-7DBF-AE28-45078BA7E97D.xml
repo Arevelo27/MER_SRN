@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB9D1537-54AA-7DBF-AE28-45078BA7E97D" name="srn_tbl_control_auditoria">
+<createdBy>TSI</createdBy>
+<createdTime>2016-10-12 14:29:31 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_proceso" id="9F32D179-C57B-2086-66AB-62BBADB3E9C7">
+<createdBy>TSI</createdBy>
+<createdTime>2016-10-12 14:46:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="proceso_realizado" id="3920E390-D9EB-418C-D00A-C40B116533DA">
+<createdBy>TSI</createdBy>
+<createdTime>2016-10-12 14:46:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_proceso" id="56FBB265-4CBF-FF13-A757-DAE4CC0C0B2F">
+<createdBy>TSI</createdBy>
+<createdTime>2016-10-12 14:46:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<delegate>8B8405A8-745E-D2EA-95E8-4F186DAC0A3F</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="893F385B-54C5-FF49-47DC-63473B1D1C77" referredColumn="8B8405A8-745E-D2EA-95E8-4F186DAC0A3F"/>
+</associations>
+</Column>
+<Column name="rol_usuario" id="5D97CB8B-3D06-3538-7A5E-8B76B42092A8">
+<createdBy>TSI</createdBy>
+<createdTime>2016-10-12 14:46:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_proceso" id="9CAEAA75-3DEA-BC76-826A-E4D146659B94">
+<createdBy>TSI</createdBy>
+<createdTime>2016-10-12 14:46:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vista_proceso" id="56741E35-591C-65CE-EBDF-4198085BCE17">
+<createdBy>TSI</createdBy>
+<createdTime>2016-10-12 14:46:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="desc_proceso" id="A47EA111-2C9B-E07E-3804-84442284C8C6">
+<createdBy>TSI</createdBy>
+<createdTime>2016-10-12 14:46:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="auditor" id="7031E9BD-88A5-5050-7B71-2C92625102FF">
+<createdBy>TSI</createdBy>
+<createdTime>2016-10-12 14:46:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<delegate>8B8405A8-745E-D2EA-95E8-4F186DAC0A3F</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="621646E2-1C2D-D3D6-EA65-BC9465380815" referredColumn="8B8405A8-745E-D2EA-95E8-4F186DAC0A3F"/>
+</associations>
+</Column>
+<Column name="desc_auditor" id="05E33BD3-A1EB-868C-680F-6E2EAD21FDAB">
+<createdBy>TSI</createdBy>
+<createdTime>2016-10-12 14:46:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_auditada" id="C8D54078-50A9-4375-CEFC-B3F80A00B80F">
+<createdBy>TSI</createdBy>
+<createdTime>2016-10-12 14:46:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8827D42B-4BF9-FB04-D842-699F77D7E8AF" name="PK_srn_tbl_control_auditoria">
+<createdBy>TSI</createdBy>
+<createdTime>2016-10-12 14:46:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F32D179-C57B-2086-66AB-62BBADB3E9C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="765C6DCB-E13D-694A-4A78-108495A521DC" name="FK_asua_proce_tbl_usuario">
+<createdBy>TSI</createdBy>
+<createdTime>2016-10-12 14:46:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56FBB265-4CBF-FF13-A757-DAE4CC0C0B2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D571228-23D7-9604-FC44-EA14B26DE444" name="FK_asua_audita_tbl_usuario">
+<createdBy>TSI</createdBy>
+<createdTime>2016-10-12 14:46:17 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>mer_srn</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7031E9BD-88A5-5050-7B71-2C92625102FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

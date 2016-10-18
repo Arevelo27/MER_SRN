@@ -107,9 +107,25 @@ CREATE TABLE srn_tbl_nota
   ) ;
 ALTER TABLE srn_tbl_nota ADD CONSTRAINT srn_tbl_nota_PK PRIMARY KEY ( num_id_nota ) ;
 
+CREATE TABLE srn_tbl_control_auditoria
+  (
+    id_proceso        NUMBER (12) NOT NULL ,
+    proceso_realizado VARCHAR2 (200) NOT NULL ,
+    usuario_proceso   NUMBER (12) NOT NULL ,
+    rol_usuario       VARCHAR2 (100) NOT NULL ,
+    fecha_proceso     DATE NOT NULL ,
+    vista_proceso     VARCHAR2 (100) NOT NULL ,
+    desc_proceso      VARCHAR2 (400) ,
+    auditor           NUMBER (12) NOT NULL ,
+    desc_auditor      VARCHAR2 (300) ,
+    fecha_auditada    DATE
+  ) ;
+ALTER TABLE srn_tbl_control_auditoria ADD CONSTRAINT PK_srn_tbl_control_auditoria PRIMARY KEY (id_proceso) ;
+ALTER TABLE srn_tbl_control_auditoria ADD CONSTRAINT FK_asua_audita_tbl_usuario FOREIGN KEY (auditor) REFERENCES srn_tbl_usuario ( num_id_usuario ) ;
+ALTER TABLE srn_tbl_control_auditoria ADD CONSTRAINT FK_asua_proce_tbl_usuario FOREIGN KEY (usuario_proceso) REFERENCES srn_tbl_usuario (num_id_usuario) ;
 
 
-ALTER TABLE srn_tbl_menu_permisos ADD CONSTRAINT FK_tbl_menu_per_tbl_rol FOREIGN KEY ( num_cod_rol ) REFERENCES srn_tbl_rol ( num_id_rol ) ;
+ALTER TABLE srn_tbl_menu_permisos ADD CONSTRAINT FK_tbl_menu_per_tbl_rol FOREIGN KEY (num_cod_rol) REFERENCES srn_tbl_rol (num_id_rol) ;
 
 ALTER TABLE srn_tbl_nota ADD CONSTRAINT FK_tbl_nota_tbl_materia_usua FOREIGN KEY ( num_cod_materiauser ) REFERENCES srn_tbl_materia_usuario ( num_id_materiauser ) ;
 
