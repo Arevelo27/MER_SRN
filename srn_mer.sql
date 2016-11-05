@@ -74,7 +74,8 @@ CREATE TABLE srn_tbl_usuario
     str_genero         VARCHAR2 (1) NOT NULL ,
     num_cod_rol        NUMBER (5) NOT NULL ,
     str_login          VARCHAR2 (50) NOT NULL ,
-    str_password       VARCHAR2 (100) NOT NULL
+    str_password       VARCHAR2 (100) NOT NULL,
+    STR_EMAIL          VARCHAR2 (100) NOT NULL
   ) ;
 CREATE INDEX srn_tbl_usuario__IDX ON srn_tbl_usuario
   (
