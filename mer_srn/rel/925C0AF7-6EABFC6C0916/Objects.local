@@ -1,25 +1,25 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="Table" objectID="BB9D1537-54AA-7DBF-AE28-45078BA7E97D" name="srn_tbl_control_auditoria" seqName="seg_0"/>
-   <object objectType="Table" objectID="F5BC3327-55AB-CF65-5B47-57536DCAA7DF" name="srn_tbl_estado" seqName="seg_0"/>
-   <object objectType="Table" objectID="56A93187-F066-AB1E-76D2-E33A6F17AFFA" name="srn_tbl_genero" seqName="seg_0"/>
-   <object objectType="Table" objectID="BE228E58-000E-FB42-784F-F4A702CD78AE" name="srn_tbl_materia" seqName="seg_0"/>
-   <object objectType="Table" objectID="7D5F268C-11BF-DB75-BC06-FA67E0E5A089" name="srn_tbl_materia_usuario" seqName="seg_0"/>
-   <object objectType="Table" objectID="549FF3D2-DD81-9A28-00E2-DCEC4BDDF9BE" name="srn_tbl_menu_permisos" seqName="seg_0"/>
    <object objectType="Table" objectID="02266D21-E62D-1DC9-8032-362CF9C52EDC" name="srn_tbl_nota" seqName="seg_0"/>
-   <object objectType="Table" objectID="840350EE-94E6-5FFF-EBFD-0EBEB7679A55" name="srn_tbl_permisos" seqName="seg_0"/>
-   <object objectType="Table" objectID="4A6D6546-900C-172B-E2F4-BF29E0775429" name="srn_tbl_rol" seqName="seg_0"/>
-   <object objectType="Table" objectID="D54127E2-F21B-E5B9-68B4-B3EBDBD4C400" name="srn_tbl_tipo_documento" seqName="seg_0"/>
    <object objectType="Table" objectID="1D834C84-43C3-85D9-5958-702318C7A388" name="srn_tbl_usuario" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="621646E2-1C2D-D3D6-EA65-BC9465380815" name="FK_asua_audita_tbl_usuario" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="893F385B-54C5-FF49-47DC-63473B1D1C77" name="FK_asua_proce_tbl_usuario" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="DF6A1485-72B4-889C-1EF3-52DED5049A85" name="FK_tbl_menu_per_tbl_rol" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="742FCBB7-2383-96DF-F2A2-8FE9991A6D7B" name="FK_tbl_nota_tbl_materia_usua" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="59842920-8CA9-485F-9809-D27222654BB8" name="FK_tbl_usuario_tbl_estado" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="D5B441F2-826E-2F52-1D60-DA894B3396D9" name="FK_tbl_usuario_tbl_genero" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="FDA5A39D-2B22-21AE-4F62-2EC349B2BD8D" name="FK_tbl_usuario_tbl_rol" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="77651EA5-FCE3-0458-D696-CC9CD9B0E332" name="FK_tbl_usuario_tbl_tipo_doc" seqName="seg_0"/>
-   <object objectType="FKIndexAssociation" objectID="625C9B49-0F73-04C0-5844-AFBC535D4D77" name="PK_tbl_materia_user_tbl_mate" seqName="seg_0"/>
+   <object objectType="Table" objectID="4A6D6546-900C-172B-E2F4-BF29E0775429" name="srn_tbl_rol" seqName="seg_0"/>
+   <object objectType="Table" objectID="549FF3D2-DD81-9A28-00E2-DCEC4BDDF9BE" name="srn_tbl_menu_permisos" seqName="seg_0"/>
+   <object objectType="Table" objectID="56A93187-F066-AB1E-76D2-E33A6F17AFFA" name="srn_tbl_genero" seqName="seg_0"/>
+   <object objectType="Table" objectID="7D5F268C-11BF-DB75-BC06-FA67E0E5A089" name="srn_tbl_materia_usuario" seqName="seg_0"/>
+   <object objectType="Table" objectID="840350EE-94E6-5FFF-EBFD-0EBEB7679A55" name="srn_tbl_permisos" seqName="seg_0"/>
+   <object objectType="Table" objectID="BB9D1537-54AA-7DBF-AE28-45078BA7E97D" name="srn_tbl_control_auditoria" seqName="seg_0"/>
+   <object objectType="Table" objectID="BE228E58-000E-FB42-784F-F4A702CD78AE" name="srn_tbl_materia" seqName="seg_0"/>
+   <object objectType="Table" objectID="D54127E2-F21B-E5B9-68B4-B3EBDBD4C400" name="srn_tbl_tipo_documento" seqName="seg_0"/>
+   <object objectType="Table" objectID="F5BC3327-55AB-CF65-5B47-57536DCAA7DF" name="srn_tbl_estado" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="3817E378-6B74-D3F4-C4E5-5D9305572562" name="PK_tbl_materia_user_tbl_usua" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="59842920-8CA9-485F-9809-D27222654BB8" name="FK_tbl_usuario_tbl_estado" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="621646E2-1C2D-D3D6-EA65-BC9465380815" name="FK_asua_audita_tbl_usuario" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="625C9B49-0F73-04C0-5844-AFBC535D4D77" name="PK_tbl_materia_user_tbl_mate" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="742FCBB7-2383-96DF-F2A2-8FE9991A6D7B" name="FK_tbl_nota_tbl_materia_usua" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="77651EA5-FCE3-0458-D696-CC9CD9B0E332" name="FK_tbl_usuario_tbl_tipo_doc" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="893F385B-54C5-FF49-47DC-63473B1D1C77" name="FK_asua_proce_tbl_usuario" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="C7DB0499-13B1-667F-A4D0-33DD6E62054C" name="PK_tbl_permisos_tbl_rol" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D5B441F2-826E-2F52-1D60-DA894B3396D9" name="FK_tbl_usuario_tbl_genero" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="DF6A1485-72B4-889C-1EF3-52DED5049A85" name="FK_tbl_menu_per_tbl_rol" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FDA5A39D-2B22-21AE-4F62-2EC349B2BD8D" name="FK_tbl_usuario_tbl_rol" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>
