@@ -74,7 +74,8 @@ CREATE TABLE srn_tbl_usuario
     str_genero         VARCHAR2 (1) NOT NULL ,
     num_cod_rol        NUMBER (5) NOT NULL ,
     str_login          VARCHAR2 (50) NOT NULL ,
-    str_password       VARCHAR2 (100) NOT NULL
+    str_password       VARCHAR2 (100) NOT NULL,
+    STR_EMAIL          VARCHAR2 (100) NOT NULL
   ) ;
 CREATE INDEX srn_tbl_usuario__IDX ON srn_tbl_usuario
   (
@@ -98,15 +99,16 @@ CREATE TABLE srn_tbl_nota
   (
     num_id_nota         NUMBER (10) NOT NULL ,
     num_cod_materiauser NUMBER (10) NOT NULL ,
-    num_parcial_I       NUMBER (2,2) ,
-    num_parcial_II      NUMBER (2,2) ,
-    num_parcial_III     NUMBER (2,2) ,
-    num_nota_adicional  NUMBER (2,2) ,
-    num_pryecto         NUMBER (2,2) ,
-    num_nota_final      NUMBER (2,2)
+    num_parcial_I       DECIMAL(2,2) ,
+    num_parcial_II      DECIMAL (2,2) ,
+    num_parcial_III     DECIMAL (2,2) ,
+    num_nota_adicional  DECIMAL (2,2) ,
+    num_pryecto         DECIMAL (2,2) ,
+    num_nota_final      DECIMAL (3,2)
   ) ;
 ALTER TABLE srn_tbl_nota ADD CONSTRAINT srn_tbl_nota_PK PRIMARY KEY ( num_id_nota ) ;
 
+<<<<<<< HEAD
 CREATE TABLE srn_tbl_control_auditoria
   (
     id_proceso        NUMBER (12) NOT NULL ,
@@ -126,6 +128,9 @@ ALTER TABLE srn_tbl_control_auditoria ADD CONSTRAINT FK_asua_proce_tbl_usuario F
 
 
 ALTER TABLE srn_tbl_menu_permisos ADD CONSTRAINT FK_tbl_menu_per_tbl_rol FOREIGN KEY (num_cod_rol) REFERENCES srn_tbl_rol (num_id_rol) ;
+=======
+ALTER TABLE srn_tbl_menu_permisos ADD CONSTRAINT FK_tbl_menu_per_tbl_rol FOREIGN KEY ( num_cod_rol ) REFERENCES srn_tbl_rol ( num_id_rol ) ;
+>>>>>>> origin/master
 
 ALTER TABLE srn_tbl_nota ADD CONSTRAINT FK_tbl_nota_tbl_materia_usua FOREIGN KEY ( num_cod_materiauser ) REFERENCES srn_tbl_materia_usuario ( num_id_materiauser ) ;
 
